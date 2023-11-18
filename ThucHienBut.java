@@ -16,7 +16,7 @@ public class ThucHienBut {
         System.out.print("Loai muc: ");
         String loaiMuc = sc.nextLine();
         System.out.print("Do min: ");
-        float doMin = sc.nextFloat();
+        String doMin = sc.nextLine();
         ButMuc pen1 = new ButMuc(tenSanPham, giaBan, thuongHieu, mauSac, chatLieu, loaiMuc, doMin);
         Main.pen[++Main.dempen]= pen1;
         System.out.println("Hoan thanh them but muc!");
@@ -63,7 +63,7 @@ public class ThucHienBut {
             System.out.print("Loai muc: ");
             String loaiMuc = sc.nextLine();
             System.out.print("Do min: ");
-            float doMin = sc.nextFloat();
+            String doMin = sc.nextLine();
             Main.pen[so].setTenSanPham(tenSanPham);
             Main.pen[so].setGiaBan(giaBan);
             Main.pen[so].setThuongHieu(thuongHieu);
