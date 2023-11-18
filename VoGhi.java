@@ -2,13 +2,13 @@ public class VoGhi {
     private String tenSanPham;
     private String giaBan;
     private String thuongHieu;
-    private int soTrang;
+    private String soTrang;
     private String loaiVo;
     private String mauBia;
     private String chatLieu;
     private String kichThuoc;
 
-    VoGhi(String tenSanPham, String giaBan, String thuongHieu, int soTrang, String loaiVo, String mauBia, String chatLieu, String kichThuoc) {
+    VoGhi(String tenSanPham, String giaBan, String thuongHieu, String soTrang, String loaiVo, String mauBia, String chatLieu, String kichThuoc) {
         this.tenSanPham = tenSanPham;
         this.giaBan = giaBan;
         this.thuongHieu = thuongHieu;
@@ -31,7 +31,7 @@ public class VoGhi {
         this.thuongHieu = thuongHieu;
     }
 
-    public void setSoTrang(int soTrang) {
+    public void setSoTrang(String soTrang) {
         this.soTrang = soTrang;
     }
 
@@ -63,7 +63,7 @@ public class VoGhi {
         return thuongHieu;
     }
 
-    public int getSoTrang() {
+    public String getSoTrang() {
         return soTrang;
     }
 
