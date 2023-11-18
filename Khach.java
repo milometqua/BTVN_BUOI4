@@ -15,9 +15,16 @@ public class Khach {
             if(press==3) break;
             else{
                 if(press==1){
-                    ThucHien.find();
+                    Find.chon();
                 } else if (press==2) {
-                    ThucHien.xem();
+                    System.out.println("Danh sach cua sach: ");
+                    ThucHienSach.xem();
+                    System.out.println("Danh sach cua vo ghi: ");
+                    ThucHienVo.xem();
+                    System.out.println("Danh sach cua but chi: ");
+                    ThucHienButChi.xem();
+                    System.out.println("Danh sach cua but muc: ");
+                    ThucHienBut.xem();
                 }
             }
         }
