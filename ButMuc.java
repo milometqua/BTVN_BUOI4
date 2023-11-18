@@ -5,9 +5,9 @@ public class ButMuc {
     private String mauSac;
     private String chatLieu;
     private String loaiMuc;
-    private float doMin;
+    private String doMin;
 
-    ButMuc(String tenSanPham, String giaBan, String thuongHieu, String mauSac, String chatLieu, String loaiMuc, float doMin) {
+    ButMuc(String tenSanPham, String giaBan, String thuongHieu, String mauSac, String chatLieu, String loaiMuc, String doMin) {
         this.tenSanPham = tenSanPham;
         this.giaBan = giaBan;
         this.thuongHieu = thuongHieu;
@@ -40,7 +40,7 @@ public class ButMuc {
         this.loaiMuc = loaiMuc;
     }
 
-    public void setDoMin(float doMin) {
+    public void setDoMin(String doMin) {
         this.doMin = doMin;
     }
 
@@ -64,7 +64,7 @@ public class ButMuc {
         return chatLieu;
     }
 
-    public float getDoMin() {
+    public String getDoMin() {
         return doMin;
     }
 
