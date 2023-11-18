@@ -10,7 +10,7 @@ public class ThucHienVo {
         System.out.print("Thuong hieu: ");
         String thuongHieu = sc.nextLine();
         System.out.print("So trang: ");
-        int soTrang = sc.nextInt();
+        String soTrang = sc.nextLine();
         System.out.print("Loai vo: ");
         String loaiVo = sc.nextLine();
         System.out.print("Mau bia: ");
@@ -59,7 +59,7 @@ public class ThucHienVo {
             System.out.print("Thuong hieu: ");
             String thuongHieu = sc.nextLine();
             System.out.print("So trang: ");
-            int soTrang = sc.nextInt();
+            String soTrang = sc.nextLine();
             System.out.print("Loai vo: ");
             String loaiVo = sc.nextLine();
             System.out.print("Mau bia: ");
